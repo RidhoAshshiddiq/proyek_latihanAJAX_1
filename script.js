@@ -9,6 +9,7 @@ function mendapatkanPikachu(){
         let img = document.createElement("img")
         img.src = gambar
         pikachu.append(img)
-        });
+    pikachu.style.border = "1px gold solid"
+    });
 }
 
